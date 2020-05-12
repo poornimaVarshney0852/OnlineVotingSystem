@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(image/india-digital.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.menu{
+    display: inline-block;
+    background: rgba(0 , 0, 0, 0.5);
+    margin: 0;
+    font-size: 20px;
+    width: 100%;
+}
+.btn{
+    float: left;
+    padding: 15px 100px 15px 235px;
+    text-align: center;
+    color: crimson;
+    
+}
+.menu.btn{
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 30px;
+    float: left;
+    color: cadetblue;
+    padding: 0;
+}
+
+.btn.fa{
+    background-color: #000;
+    color: #fff;
+    width: 42px;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    border-radius: 50%;
+}
+a{
+    color: crimson;
+    text-decoration: none;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: black;
+    color: #2081c3;
+}
+a:hover{
+    cursor: pointer;
+    color: #2081c3;
+}
+
+.BJP{
+    width: 340px;
+    height: 420px;
+    margin: 0;
+    padding: 0;
+    border-style: solid;
+    border-width: 10px;
+    border-color: black;
+    border-radius: 20%;
+}
+.myclass{
+    width: 100%;
+    display: inline-block;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 10px;
+}
+.homepage{
+    width: 100%;
+    display: inline-block;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 10px;
+
+}
+.homepage1{
+    width: 100%;
+    display: inline-block;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 10px;
+
+}
+.BJP1{
+    height: 200px;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 100px;
+    border-style: inset;
+    border-width: 10px;
+    border-color: black;
+    margin-right: 220px;
+}
+
+.myimg{
+        float: left;
+        width: 50%;
+}
+@media screen and (max-width: 768px){
+        .myimg{
+             width: 100%;
+   }
+    .bjp{
+        height: 50%;
+        width: 70%;
+    }
+    .BJP1{
+        height: 100px;
+        width: 100px;
+        margin-top: 
+    }
+}
+.myimg img:hover{
+    cursor: pointer;
+    background-color: black;
+    border-style: solid;
+    border-color: #2081c3;
+}
+.homepage2 button
+{
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 40px;
+    background: #fb2525;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 400px;
+}
+.homepage2 a:hover
+{
+    cursor: pointer;
+    background: transparent;
+    color:  black;
+}
+.homepage2 button a
+{
+    color: white;
+}
+@media screen and (max-width: 768px){
+        .homepage2 button{
+             margin-left: 0;
+   }
+}

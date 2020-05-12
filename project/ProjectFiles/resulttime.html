@@ -1,0 +1,37 @@
+<html>
+    <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+   <style>
+.time {
+  text-align: right;
+  margin-top:0px;
+    font-size: 20px;
+    color: blue;
+}
+</style>  
+        
+</head>
+    <body>
+        <div class="time">
+        <p id="demo"></p>
+
+<script>
+var countDownDate = new Date("Apr 13, 2018 11:40:00").getTime();
+    var x = setInterval(function() {
+    var now = new Date().getTime();
+    var distance = countDownDate - now;
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    document.getElementById("demo").innerHTML = hours + "h :"
+    + minutes + "m :" + seconds + "s "; 
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = alert('TIME OUT') , document.location.href='data.php';
+    }
+}, 1000);
+</script>
+        </div>
+    </body>
+</html>
